@@ -8,7 +8,7 @@ For reproducing many babies  researc, Docker offers a shared online image (a rea
 ## Downloading Dokcer Applicaiton
 There are two ways to download Docker in your local machine depending on the operating system on it. 
 ### macOS
-**Note**: <p>Keep in mind that you macOS must be at lest 10.15 or newer (*Catalina*, *Big Sure*, *Monterey*)  to be able to run docker.</p>
+**Note**: Keep in mind that you macOS must be at lest 10.15 or newer (*Catalina*, *Big Sure*, *Monterey*)  to be able to run docker.
 
 #### Insallation: 
 1. [Mac with Intel Chip](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64).
@@ -40,16 +40,16 @@ There are two ways to download Docker in your local machine depending on the ope
 #### Insallation: 
 
 1. [Download Docker for Windows 10](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe).
-2. Double-click on the Docker Desktop Insaller.exe file to start the installation process.
-3. Recommondentaion: you need to enable Hyper-V Wondows Feature. Folloow the steps below:
+2. Recommondentaion: you need to enable Hyper-V Wondows Feature. Folloow the steps below:
     - Right click on the Windows button, then selection *Apps and Features8.
     - Select *Programs and Features* on the right under relation settings.
     - Select *Turn Windows Features on or off*
     - Select *Hypter-V*, and click *ok*.
-    
 <p align="center">
   <img width="300" src="https://user-images.githubusercontent.com/47132064/184061906-ca8b8222-815a-4c4f-a3d6-9bd299950e1c.png">
 </p>
+
+3. Double-click on the Docker Desktop Insaller.exe file to start the installation process.
 
 ### Ubuntu
 **Note**: you need a 64-bit Ubuntu version to successfully install Docker application. Your Ubuntu may be one of the followings: Ubuntu (LTS) 18.04, 20.04, 21.10, 22.04 or known as Bionic, Focal, Impish, Jammy, respectively.

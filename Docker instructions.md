@@ -2,9 +2,9 @@
 The ability to reproduce results of computational research is becoming a critical issue with the onging technicial changes and computational updates. Docker, an open source technology, addresses this issue  by providing a virtual environment with its package and dependencies to ensure a long-term reproducibilty of scientific results. In this tutorial, we will walk you through a few steps to install Docker software on your local machines, and to import and run *mb1-cdi-followup*'s Rstudio Docker image.  A *docker image* is a pre-configured copy of a  software, Rstudio in our case, with an installation of selected R versions, packages, and dependencies. In other words, a *docker image* is a virtual copy of *mb1-cdi-followup*'s original R environment that was used to produce the results. 
 
 In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow three steps.
-1. Creating Dokcer Account.
-2. Donwloading and Installing Docker Software.
-3. Importing and Running *mb1-cdi-followup*'s Rstudio Docker image.
+- Step 1: Creating Dokcer Account.
+- Step 2: Donwloading and Installing Docker Software.
+- Step 3: Importing and Running *mb1-cdi-followup*'s Rstudio Docker image.
 
 
 ## Step 1: Creating Docker Account
@@ -49,15 +49,15 @@ From your local machine Open the following application:
   - For **MAC**, open `Terminal`.
   - For **Windows**, open `Command Prompt`.
   
-Then, follow the instruction below. For each instruction copy the command line without the dollar sign `$`, and paste it in the application.
+Then, follow the instruction below. For each instruction, copy the command line without the dollar sign `$`, and paste it in the application.
 1. Login with your docker account ID and password: `$ docker login`
   - Enter your docker account ID.
   - Enter your password. **Note**:  while you are typing your password, it will not show up and the cursur will not move. Just type it, then hit *enter*/*return*.
 3. Then, import *mb1-cdi-followup*'s Rstudio Docker image: `$ docker pull mb1l/mb1-cdi-followup`
 4. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results: `$ docker run -p 8787:8787 -e PASSWORD=rstudio mb1l/mb1-cdi-followup`
-5. On your browser, insert the following: `localhost:8787`.
+5. On your browser, copy & paste the following: `localhost:8787`.
 
-- Copy and paste the following *user ID* & *password*:
+- Copy & paste the following *user ID* & *password*:
   - User ID: `rstudio`.
   - Password: `rstudio`.
 

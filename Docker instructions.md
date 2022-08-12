@@ -47,7 +47,7 @@ In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow th
 ## Step 3: Importing and running *mb1-cdi-followup*'s Rstudio Docker image
 From your local machine Open the following application:
   - For **MAC**, open `Terminal`.
-  - For **Windows**, open `Command Promp`.
+  - For **Windows**, open `Command Prompt`.
   
 Then, follow the instruction below. For each instruction copy the command line without the dollar sign `$`, and paste it in the application.
 1. Login with your docker account ID and passcode using: `$ docker login`

@@ -52,7 +52,7 @@ From your local machine Open the following application:
 Then, follow the instruction below. For each instruction copy the command line without the dollar sign `$`, and paste it in the application.
 1. Login with your docker account ID and passcode using: `$ docker login`
   - Enter your docker account ID.
-  - then your password. **Note**:  while you are typing your password, it will now show up and cursur will not move. Just type it, then hit `enter/return`.
+  - Enter your password. **Note**:  while you are typing your password, it will not show up and the cursur will not move. Just type it, then hit `enter/return`.
 3. Then, import *mb1-cdi-followup*'s Rstudio Docker image: `$ docker pull mohmdsh/manybabies`
 4. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results:. `$ docker run -p 8787:8787 -e PASSWORD=rstudio mohmdsh/manybabies`
 5. On your browser, insert the following: `localhost:8787`.

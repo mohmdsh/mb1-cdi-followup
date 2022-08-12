@@ -54,8 +54,12 @@ Then, follow the instruction below. For each instruction copy the command line w
   - Enter your docker account ID.
   - then your password. **Note**:  while you are typing your password, it will now show up and cursur will not move. Just type it, then hit `enter/return`.
 3. Then, import *mb1-cdi-followup*'s Rstudio Docker image: `$ docker pull mohmdsh/manybabies`
-4. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results:. `$ docker run --rm -ti -e DISABLE_AUTH=true -p 8787:8787 mohmdsh/manybabies`
+4. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results:. `$ docker run -p 8787:8787 -e PASSWORD=rstudio mohmdsh/manybabies`
 5. On your browser, insert the following: `localhost:8787`.
+
+- Copy and paste the following *user ID* & *password*:
+  - User ID: `rstudio`.
+  - Password: `rstudio`.
 
 
 

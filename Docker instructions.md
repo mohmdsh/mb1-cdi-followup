@@ -56,9 +56,9 @@ Then, follow the instruction below. For each instruction, copy the command line 
   
   ( In your next login, you may not your need to enter account ID and password. Once you enter the login command line, it will login automatically.)
   
-3. Then, import *mb1-cdi-followup*'s Rstudio Docker image: `$ docker pull mb1l/mb1-cdi-followup:v.1`
-4. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results: `$ docker run -p 8787:8787 -e PASSWORD=rstudio mb1l/mb1-cdi-followup:v.1`
-5. On your browser, copy & paste the following: `localhost:8787`.
+2. Then, import *mb1-cdi-followup*'s Rstudio Docker image: `$ docker pull mb1l/mb1-cdi-followup:v.1`
+3. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results: `$ docker run -p 8787:8787 -e PASSWORD=rstudio mb1l/mb1-cdi-followup:v.1`
+4. On your browser, copy & paste the following: `localhost:8787`.
 
 - Copy & paste the following *user ID* & *password*:
   - User ID: `rstudio`.

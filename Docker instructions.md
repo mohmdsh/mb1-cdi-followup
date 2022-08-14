@@ -40,7 +40,7 @@ In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow th
 #### Insallation: 
 
 1. [Download Docker for Windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe), then double-click on the `Docker Desktop Insaller.exe` file to start the installation process.
-- Once the installation is succeeded, open the Docker software. After a few seconds, it should indicate `docker is running`.  Then, proceed to *step 3*.
+2. Once the installation is succeeded, open the Docker software. After a few seconds, it should indicate `docker is running`.  Then, proceed to *step 3*.
 
 
 
@@ -49,7 +49,7 @@ From your local machine Open the following application:
   - For **MAC**, open `Terminal`.
   - For **Windows**, open `Command Prompt`.
   
-Then, follow the instruction below. For each instruction, copy the command line without the dollar sign `$`, and paste it in the application.
+Then, follow the instruction below. For each instruction, copy the command line without the dollar sign `$`, and paste it in `Terminal` or `Command Prompt`.
 1. Login with your docker account ID and password: `$ docker login`
   - Enter your docker account ID.
   - Enter your password. **Note**:  while you are typing your password, it will not show up and the cursor will not move. Just type it, then hit *enter*/*return*.

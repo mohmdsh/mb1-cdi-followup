@@ -2,7 +2,7 @@
 The ability to reproduce results of computational research is becoming a critical issue with the onging technicial changes and computational updates. Docker, an open source technology, addresses this issue  by providing a virtual environment with its package and dependencies to ensure a long-term reproducibilty of scientific results. In this tutorial, we will walk you through a few steps to install Docker software on your local machines, and to import and run *mb1-cdi-followup*'s Rstudio Docker image.  A *docker image* is a pre-configured copy of a  software, Rstudio in our case, with an installation of selected R versions, packages, and dependencies. In other words, a *docker image* is a virtual copy of *mb1-cdi-followup*'s original R environment that was used to produce the results. 
 
 In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow three steps.
-- Step 1: Creating Dokcer Account.
+- Step 1: Creating Docker Account.
 - Step 2: Donwloading and Installing Docker Software.
 - Step 3: Importing and Running *mb1-cdi-followup*'s Rstudio Docker image.
 
@@ -16,7 +16,7 @@ In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow th
 
 
 ### Docker for Mac
-**Note**: Keep in mind that you macOS must be at lest 10.15 or newer (*Catalina*, *Big Sure*, *Monterey*)  to be able to run Docker.
+**Note**: Keep in mind that your macOS must be at least 10.15 or newer (*Catalina*, *Big Sure*, *Monterey*)  to be able to run Docker.
 
 #### Insallation: 
 1. [Docker for Mac](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64).
@@ -52,7 +52,7 @@ From your local machine Open the following application:
 Then, follow the instruction below. For each instruction, copy the command line without the dollar sign `$`, and paste it in the application.
 1. Login with your docker account ID and password: `$ docker login`
   - Enter your docker account ID.
-  - Enter your password. **Note**:  while you are typing your password, it will not show up and the cursur will not move. Just type it, then hit *enter*/*return*.
+  - Enter your password. **Note**:  while you are typing your password, it will not show up and the cursor will not move. Just type it, then hit *enter*/*return*.
 3. Then, import *mb1-cdi-followup*'s Rstudio Docker image: `$ docker pull mb1l/mb1-cdi-followup:v.1`
 4. Next, run *mb1-cdi-followup*'s Rstudio Docker image to be able to reproduce the results: `$ docker run -p 8787:8787 -e PASSWORD=rstudio mb1l/mb1-cdi-followup:v.1`
 5. On your browser, copy & paste the following: `localhost:8787`.

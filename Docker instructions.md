@@ -63,6 +63,10 @@ Then, follow the instruction below. For each instruction, copy the command line 
 - Copy & paste the following *user ID* & *password*:
   - User ID: `rstudio`.
   - Password: `rstudio`.
+- Once you lgoin, rstudio should look like the image below:
+<p align="center">
+  <img width="800" src="https://user-images.githubusercontent.com/47132064/184929809-4888c209-e074-4446-be25-e06b1ce75487.jpg">
+</p>
 
 
 

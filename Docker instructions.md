@@ -71,7 +71,7 @@ Then, follow the instructions below. For each time, copy the command line withou
 
 ## Stopping Docker Image
 
-After finishing reproducing the result, you should stop the running image. In  `Terminal` or `Command Prompt` pressing `Control (CTRL) + c`. After a minute, you should get the following message `[s6-finish] sending all processes the KILL signal and exiting`.
+After finishing reproducing the results, you should stop the running image. In  `Terminal` or `Command Prompt` pressing `Control (CTRL) + c`. Afterward, you should get the following message `[finish] sending all processes the KILL signal and exiting`.
 
 ## Removing Docker.
 

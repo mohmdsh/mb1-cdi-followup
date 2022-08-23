@@ -69,11 +69,11 @@ Then, follow the instructions below. For each time, copy the command line withou
 </p>
 
 
-## Stopping Docker Image
+## Stop Docker Image
 
 After finishing reproducing the results, you should stop the running image. In  `Terminal` or `Command Prompt` pressing `Control (CTRL) + c`. Afterward, you should get the following message `[finish] sending all processes the KILL signal and exiting`.
 
-## Removing Docker.
+## Remove Docker.
 
 You can reclaim the used storage in your machine after reproducing the results. Follow these steps:
 1. In  `Terminal` or `Command Prompt` enter the following command line: `$ docker system prune -a`.

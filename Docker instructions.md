@@ -1,5 +1,5 @@
 # Reproducible Research
-The ability to reproduce results of computational research is becoming a critical issue with the onging technicial changes and computational updates. Docker, an open source technology, addresses this issue  by providing a virtual environment with its package and dependencies to ensure a long-term reproducibilty of scientific results. In this tutorial, we will walk you through a few steps to install Docker software on your local machine, and to import and run *mb1-cdi-followup*'s Rstudio Docker image.  A *Docker image* is a pre-configured copy of software, Rstudio in our case, with an installation of selected R versions, packages, and dependencies. In other words, a *docker image* is a virtual copy of *mb1-cdi-followup*'s original R environment that was used to produce the results. 
+The ability to reproduce results of computational research is becoming a critical issue with the onging technicial changes and computational updates. Docker, an open source technology, addresses this issue  by providing a virtual environment with its package and dependencies to ensure a long-term reproducibilty of scientific results. In this tutorial, we will walk you through a few steps to install Docker software on your local machine, and to import and run *mb1-cdi-followup*'s Rstudio Docker image.  A *Docker image* is a pre-configured copy of software, Rstudio in our case, with an installation of selected R versions, packages, and dependencies. In other words, a *Docker image* is a virtual copy of *mb1-cdi-followup*'s original R environment that was used to produce the results. 
 
 In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow three steps.
 - Step 1: Create Docker Account.
@@ -10,7 +10,7 @@ In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow th
 ## Step 1: Create Docker Account
 - Create an account in [Docker](https://hub.docker.com/). Please, keep a copy of your *account ID* and *password* to use them in *step 3*.
 
-## Step 2: Download & Install Dokcer Software
+## Step 2: Download & Install Docker Software
 - [Docker for Mac](#docker-for-mac)
 - [Docker for Windows](#docker-for-windows)
 

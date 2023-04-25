@@ -12,7 +12,9 @@ In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow th
 
 ## Step 2: Download & Install Docker Software
 - [Docker for Mac](#docker-for-mac)
-- [Docker for Windows](#docker-for-windows)
+- [Docker for W
+
+ows](#docker-for-windows)
 
 
 ### Docker for Mac
@@ -22,7 +24,7 @@ In order to run *mb1-cdi-followup*'s Rstudio Docker image, you have to follow th
 1. [Docker for Mac](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64).
 2. Double-click the `Docker.dmg` file, then drag-and-drop `Docker.app` in your Application folder.
 3. Open `Docker.app` to start the application, and sign in  with your Docker account ID and passcode.
-4. Locate the "whale" icon on your status bar, then click it. Be sure that it indecates `Docker is running` as shown below.
+4. Locate the "whale" icon on your status bar, then click it. Be sure that it indicates `Docker is running` as shown below.
 
 <p align="center">
   <img width="200" src="https://user-images.githubusercontent.com/47132064/184414404-529568c9-f577-4787-a372-e8e14431b896.png">
